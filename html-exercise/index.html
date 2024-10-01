@@ -1,24 +1,55 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+
+<head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-  </head>
-  <body>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+
+<body>
     <header>
-      <h1>My First Static Webpage</h1>
+        <section>
+            <h1>My First Static Webpage</h1>
     </header>
     <h1>Cities I've Lived in</h1>
+    <p>I spent my childhood living in the DMV. 
+        After that I moved to State College, PA for school.
+        When I graduated college, I moved to Tacoma, Washington for my first duty station.
+    </p>
     <ul>
-        <li>Washington D.C.</li>
-        <li>State College, PA</li>
-        <li>Tacoma, Washington</li>
+        <li>Washington D.C.<span>:  Hometown</span></li>
+        <li>State College, PA<span>: College Town</span></li>
+        <li>Tacoma, Washington<span>: First Duty Station</span></li>
     </ul>
-    <ol>
-        <li>Tokyo, Japan</li>
-        <li>Sydney, Australia</li>
-        <li>Porto, Portugal</li>
-    </ol>
-  </body>
+    </section>
+    <section>
+        <h1>Cities I Want To Visit</h1>
+        <p>I want to visit these cities 
+            because they are all in countries 
+            I haven't had the opportunity to see yet.
+        </p>
+        <ol>
+            <li><strong>Tokyo, Japan</strong></li>
+            <li><em>Sydney, Australia</em></li>
+            <li><strong>Porto, Portugal</strong></li>
+        </ol>
+        <p></p>
+    </section>
+    <p><img class="picture" src="./images/heresy.jpg" alt="description" width="100" height="48" longdesc="desc.txt" /></p>
+    <p><audio controls="controls">
+        <source src="./images/Free_Test_Data_100KB_OGG.ogg" type="audio/ogg" />
+        No audio support.
+      </audio>
+    </p>
+    <p><video controls="controls" width="200" height="150">
+        <source src="./images/bus.mp4" type="video/mp4" />
+        
+        No video support.
+      </video>
+    </p>
+
+</body>
+<a href="/week1/html-exercise/favorites.html">Another Page</a>
 </html>
